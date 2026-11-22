@@ -1,0 +1,11 @@
+{
+  "org": "Keats",
+  "repo": "jsonwebtoken",
+  "versions": [
+    {
+      "commit": "900010fb1be550ec2cfa8c32038eb154f9ef56d7",
+      "tag": "v11.0.0",
+      "parsed_at": "2026-11-22T16:48:05.179598+00:00"
+    }
+  ]
+}
