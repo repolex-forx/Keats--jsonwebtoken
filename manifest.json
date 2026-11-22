@@ -83,6 +83,186 @@
       ],
       "ast": [
         "aggregate/ast/900010fb1be550ec2cfa8c32038eb154f9ef56d7/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/900010fb1be550ec2cfa8c32038eb154f9ef56d7.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "base64",
+          "ecosystem": "CARGO",
+          "version": "0.22",
+          "githubOrg": "marshallpierce",
+          "githubRepo": "rust-base64",
+          "githubUrl": "https://github.com/marshallpierce/rust-base64",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0.228",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "a866b336f14aa57a07f0d0be9f8762746e64ecb4",
+          "githubTag": "v1.0.228",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "signature",
+          "ecosystem": "CARGO",
+          "version": "2.2.0",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "traits",
+          "githubUrl": "https://github.com/RustCrypto/traits",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "pem",
+          "ecosystem": "CARGO",
+          "version": "3",
+          "githubOrg": "jcreekmore",
+          "githubRepo": "pem-rs",
+          "githubUrl": "https://github.com/jcreekmore/pem-rs.git",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "simple_asn1",
+          "ecosystem": "CARGO",
+          "version": "0.6",
+          "githubOrg": "acw",
+          "githubRepo": "simple_asn1",
+          "githubUrl": "https://github.com/acw/simple_asn1",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "aws-lc-rs",
+          "ecosystem": "CARGO",
+          "version": "1.15.0",
+          "githubOrg": "aws",
+          "githubRepo": "aws-lc-rs",
+          "githubCommit": "ce17e88f7cddd50e8ff670860abc6aad7c0804ef",
+          "githubTag": "v1.15.0",
+          "githubUrl": "https://github.com/aws/aws-lc-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "ed25519-dalek",
+          "ecosystem": "CARGO",
+          "version": "2.1.1",
+          "githubOrg": "dalek-cryptography",
+          "githubRepo": "curve25519-dalek",
+          "githubCommit": "0f07443c2d6c915bcb44417cfd2ec03aa53f0539",
+          "githubTag": "2.1.1",
+          "githubUrl": "https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "hmac",
+          "ecosystem": "CARGO",
+          "version": "0.12.1",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "MACs",
+          "githubUrl": "https://github.com/RustCrypto/MACs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "p256",
+          "ecosystem": "CARGO",
+          "version": "0.13.2",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "elliptic-curves",
+          "githubUrl": "https://github.com/RustCrypto/elliptic-curves",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "p384",
+          "ecosystem": "CARGO",
+          "version": "0.13.0",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "elliptic-curves",
+          "githubUrl": "https://github.com/RustCrypto/elliptic-curves",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.8.5",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubCommit": "937320cbfeebd4352a23086d9c6e68f067f74644",
+          "githubTag": "0.8.5",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rsa",
+          "ecosystem": "CARGO",
+          "version": "0.9.6",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "RSA",
+          "githubCommit": "a801f53a770456e71d2e7964c39ea4ddaf779765",
+          "githubTag": "v0.9.6",
+          "githubUrl": "https://github.com/RustCrypto/RSA",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "sha2",
+          "ecosystem": "CARGO",
+          "version": "0.10.7",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "hashes",
+          "githubUrl": "https://github.com/RustCrypto/hashes",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "zeroize",
+          "ecosystem": "CARGO",
+          "version": "1.8.2",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "utils",
+          "githubUrl": "https://github.com/RustCrypto/utils",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "wasm-bindgen-test",
+          "ecosystem": "CARGO",
+          "version": "0.3.1",
+          "githubOrg": "wasm-bindgen",
+          "githubRepo": "wasm-bindgen",
+          "githubUrl": "https://github.com/wasm-bindgen/wasm-bindgen",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand_core",
+          "ecosystem": "CARGO",
+          "version": "0.6.4",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand_core",
+          "githubCommit": "89a1336b934c68ddce548127c6f8afd910b35a18",
+          "githubTag": "v0.6.4",
+          "githubUrl": "https://github.com/rust-random/rand_core",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "time",
+          "ecosystem": "CARGO",
+          "version": "0.3.55",
+          "githubOrg": "time-rs",
+          "githubRepo": "time",
+          "githubCommit": "857d9c404c5b6f6cb64d1bfa604c695be3369e12",
+          "githubTag": "v0.3.55",
+          "githubUrl": "https://github.com/time-rs/time",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/time-0.3.55/src/lib.rs"
+        }
       ]
     }
   ],
